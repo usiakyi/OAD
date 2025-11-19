@@ -7,5 +7,5 @@ public enum CharacterClass
     Rogue = 3,
     Potato = 4,
     Ork = 5,
-    mumGabe = 6
+    Lucznik = 6
 }

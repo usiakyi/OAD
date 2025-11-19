@@ -15,7 +15,7 @@ public static class CharacterFactory
             CharacterClass.Rogue   => new Rogue(name ?? "Rogue"),
             CharacterClass.Ork   => new Ork(name ?? "Ork"),
             CharacterClass.Potato   => new Potato(name ?? "Potato"),
-            CharacterClass.mumgabe   => new mumgabe(name ?? "mumgabe"),
+            CharacterClass.Lucznik   => new Lucznik(name ?? "Lucznik"),
             _ => throw new ArgumentOutOfRangeException(nameof(cls), "Nieznana klasa postaci.")
         };
     }

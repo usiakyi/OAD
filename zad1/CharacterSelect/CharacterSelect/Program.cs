@@ -17,13 +17,16 @@ namespace CharacterSelect
                 Console.WriteLine("1) Wojownik");
                 Console.WriteLine("2) Mag");
                 Console.WriteLine("3) Łotrzyk");
+                Console.WriteLine("4) KFC Potato");
+                Console.WriteLine("5) Ork");
+                Console.WriteLine("6) Lucznik");
                 Console.WriteLine("0) Wyjście");
-                Console.Write("Wybierz klasę [0-3]: ");
+                Console.Write("Wybierz klasę [0-6]: ");
 
                 var input = Console.ReadLine();
                 if (input == "0") break;
 
-                if (!int.TryParse(input, out var choice) || choice < 1 || choice > 3)
+                if (!int.TryParse(input, out var choice) || choice < 1 || choice > 6)
                 {
                     Pause("Niepoprawny wybór. Naciśnij Enter…");
                     continue;
@@ -51,7 +54,7 @@ namespace CharacterSelect
                 if (again != "t" && again != "tak") break;
             }
 
-            Console.WriteLine("\nDzięki za grę! Do zobaczenia 👋");
+            Console.WriteLine("\nDzięki za grę! Do zobaczenia!");
         }
 
         private static void Pause(string msg)
