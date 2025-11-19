@@ -2,7 +2,10 @@ namespace CharacterSelect.Domain.Enum;
 
 public enum CharacterClass
 {
-    Warrior = 1,
-    Mage = 2,
-    Rogue = 3
+    Mage = 1,
+    mumGabe = 2,
+    ork = 3,
+    Potato = 4,
+    Rogue = 5,
+    Warrior = 6
 }
