@@ -1,3 +1,4 @@
+# --- .NET build artifacts ---
 bin/
 obj/
 [Bb]uild/
@@ -16,15 +17,16 @@ TestResults/
 packages/
 .nuget/
 
-# IDE: Rider / JetBrains
+# Rider (JetBrains)
 .idea/
 *.sln.DotSettings.user
+# Rider cache per-solution
 .sln.iml
 
-# IDE: Visual Studio
+# Visual Studio
 .vs/
 
-# IDE: VS Code
+# VS Code
 .vscode/
 .history/
 
@@ -35,11 +37,11 @@ coverage/
 *.opencover.xml
 .coverage/
 
-# Publish / artifacts
+# Publish / Artifacts
 publish/
 artifacts/
 
-# Systemowe
+# OS junk
 .DS_Store
 Thumbs.db
 desktop.ini
@@ -48,6 +50,6 @@ desktop.ini
 *.tmp
 *.temp
 
-# (opcjonalnie, gdybyś miał front)
+# If you ever add frontend bits
 node_modules/
 dist/
