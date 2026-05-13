@@ -1,2 +1,0 @@
-# OAD
-Obiektowe Aplikacje Desktopowe
